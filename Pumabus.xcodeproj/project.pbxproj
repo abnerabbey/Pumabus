@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FE65CB1C951A8C0073CE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65CA1C951A8C0073CE3B /* main.m */; };
+		07FE65CE1C951A8C0073CE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65CD1C951A8C0073CE3B /* AppDelegate.m */; };
+		07FE65D11C951A8C0073CE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65D01C951A8C0073CE3B /* ViewController.m */; };
+		07FE65D41C951A8C0073CE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FE65D21C951A8C0073CE3B /* Main.storyboard */; };
+		07FE65D61C951A8C0073CE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FE65D51C951A8C0073CE3B /* Assets.xcassets */; };
+		07FE65D91C951A8C0073CE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FE65D71C951A8C0073CE3B /* LaunchScreen.storyboard */; };
+		07FE65E41C951A8D0073CE3B /* PumabusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65E31C951A8C0073CE3B /* PumabusTests.m */; };
+		07FE65EF1C951A8D0073CE3B /* PumabusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65EE1C951A8D0073CE3B /* PumabusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FE65E01C951A8C0073CE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FE65BE1C951A8C0073CE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FE65C51C951A8C0073CE3B;
+			remoteInfo = Pumabus;
+		};
+		07FE65EB1C951A8D0073CE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FE65BE1C951A8C0073CE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FE65C51C951A8C0073CE3B;
+			remoteInfo = Pumabus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FE65C61C951A8C0073CE3B /* Pumabus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pumabus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FE65CA1C951A8C0073CE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07FE65CC1C951A8C0073CE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07FE65CD1C951A8C0073CE3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07FE65CF1C951A8C0073CE3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07FE65D01C951A8C0073CE3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07FE65D31C951A8C0073CE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FE65D51C951A8C0073CE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FE65D81C951A8C0073CE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07FE65DA1C951A8C0073CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FE65DF1C951A8C0073CE3B /* PumabusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PumabusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FE65E31C951A8C0073CE3B /* PumabusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PumabusTests.m; sourceTree = "<group>"; };
+		07FE65E51C951A8D0073CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FE65EA1C951A8D0073CE3B /* PumabusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PumabusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FE65EE1C951A8D0073CE3B /* PumabusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PumabusUITests.m; sourceTree = "<group>"; };
+		07FE65F01C951A8D0073CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FE65C31C951A8C0073CE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE65DC1C951A8C0073CE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE65E71C951A8D0073CE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FE65BD1C951A8C0073CE3B = {
+			isa = PBXGroup;
+			children = (
+				07FE65C81C951A8C0073CE3B /* Pumabus */,
+				07FE65E21C951A8C0073CE3B /* PumabusTests */,
+				07FE65ED1C951A8D0073CE3B /* PumabusUITests */,
+				07FE65C71C951A8C0073CE3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FE65C71C951A8C0073CE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FE65C61C951A8C0073CE3B /* Pumabus.app */,
+				07FE65DF1C951A8C0073CE3B /* PumabusTests.xctest */,
+				07FE65EA1C951A8D0073CE3B /* PumabusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FE65C81C951A8C0073CE3B /* Pumabus */ = {
+			isa = PBXGroup;
+			children = (
+				07FE65CC1C951A8C0073CE3B /* AppDelegate.h */,
+				07FE65CD1C951A8C0073CE3B /* AppDelegate.m */,
+				07FE65CF1C951A8C0073CE3B /* ViewController.h */,
+				07FE65D01C951A8C0073CE3B /* ViewController.m */,
+				07FE65D21C951A8C0073CE3B /* Main.storyboard */,
+				07FE65D51C951A8C0073CE3B /* Assets.xcassets */,
+				07FE65D71C951A8C0073CE3B /* LaunchScreen.storyboard */,
+				07FE65DA1C951A8C0073CE3B /* Info.plist */,
+				07FE65C91C951A8C0073CE3B /* Supporting Files */,
+			);
+			path = Pumabus;
+			sourceTree = "<group>";
+		};
+		07FE65C91C951A8C0073CE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FE65CA1C951A8C0073CE3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07FE65E21C951A8C0073CE3B /* PumabusTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FE65E31C951A8C0073CE3B /* PumabusTests.m */,
+				07FE65E51C951A8D0073CE3B /* Info.plist */,
+			);
+			path = PumabusTests;
+			sourceTree = "<group>";
+		};
+		07FE65ED1C951A8D0073CE3B /* PumabusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07FE65EE1C951A8D0073CE3B /* PumabusUITests.m */,
+				07FE65F01C951A8D0073CE3B /* Info.plist */,
+			);
+			path = PumabusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FE65C51C951A8C0073CE3B /* Pumabus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FE65F31C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "Pumabus" */;
+			buildPhases = (
+				07FE65C21C951A8C0073CE3B /* Sources */,
+				07FE65C31C951A8C0073CE3B /* Frameworks */,
+				07FE65C41C951A8C0073CE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pumabus;
+			productName = Pumabus;
+			productReference = 07FE65C61C951A8C0073CE3B /* Pumabus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FE65DE1C951A8C0073CE3B /* PumabusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FE65F61C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "PumabusTests" */;
+			buildPhases = (
+				07FE65DB1C951A8C0073CE3B /* Sources */,
+				07FE65DC1C951A8C0073CE3B /* Frameworks */,
+				07FE65DD1C951A8C0073CE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FE65E11C951A8C0073CE3B /* PBXTargetDependency */,
+			);
+			name = PumabusTests;
+			productName = PumabusTests;
+			productReference = 07FE65DF1C951A8C0073CE3B /* PumabusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07FE65E91C951A8D0073CE3B /* PumabusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FE65F91C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "PumabusUITests" */;
+			buildPhases = (
+				07FE65E61C951A8D0073CE3B /* Sources */,
+				07FE65E71C951A8D0073CE3B /* Frameworks */,
+				07FE65E81C951A8D0073CE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FE65EC1C951A8D0073CE3B /* PBXTargetDependency */,
+			);
+			name = PumabusUITests;
+			productName = PumabusUITests;
+			productReference = 07FE65EA1C951A8D0073CE3B /* PumabusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FE65BE1C951A8C0073CE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Abner  Iván Castro Aguilar";
+				TargetAttributes = {
+					07FE65C51C951A8C0073CE3B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					07FE65DE1C951A8C0073CE3B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07FE65C51C951A8C0073CE3B;
+					};
+					07FE65E91C951A8D0073CE3B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07FE65C51C951A8C0073CE3B;
+					};
+				};
+			};
+			buildConfigurationList = 07FE65C11C951A8C0073CE3B /* Build configuration list for PBXProject "Pumabus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FE65BD1C951A8C0073CE3B;
+			productRefGroup = 07FE65C71C951A8C0073CE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FE65C51C951A8C0073CE3B /* Pumabus */,
+				07FE65DE1C951A8C0073CE3B /* PumabusTests */,
+				07FE65E91C951A8D0073CE3B /* PumabusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FE65C41C951A8C0073CE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE65D91C951A8C0073CE3B /* LaunchScreen.storyboard in Resources */,
+				07FE65D61C951A8C0073CE3B /* Assets.xcassets in Resources */,
+				07FE65D41C951A8C0073CE3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE65DD1C951A8C0073CE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE65E81C951A8D0073CE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FE65C21C951A8C0073CE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE65D11C951A8C0073CE3B /* ViewController.m in Sources */,
+				07FE65CE1C951A8C0073CE3B /* AppDelegate.m in Sources */,
+				07FE65CB1C951A8C0073CE3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE65DB1C951A8C0073CE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE65E41C951A8D0073CE3B /* PumabusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE65E61C951A8D0073CE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE65EF1C951A8D0073CE3B /* PumabusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FE65E11C951A8C0073CE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FE65C51C951A8C0073CE3B /* Pumabus */;
+			targetProxy = 07FE65E01C951A8C0073CE3B /* PBXContainerItemProxy */;
+		};
+		07FE65EC1C951A8D0073CE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FE65C51C951A8C0073CE3B /* Pumabus */;
+			targetProxy = 07FE65EB1C951A8D0073CE3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FE65D21C951A8C0073CE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FE65D31C951A8C0073CE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07FE65D71C951A8C0073CE3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FE65D81C951A8C0073CE3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FE65F11C951A8D0073CE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07FE65F21C951A8D0073CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FE65F41C951A8D0073CE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pumabus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.Pumabus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07FE65F51C951A8D0073CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pumabus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.Pumabus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07FE65F71C951A8D0073CE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PumabusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.PumabusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pumabus.app/Pumabus";
+			};
+			name = Debug;
+		};
+		07FE65F81C951A8D0073CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PumabusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.PumabusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pumabus.app/Pumabus";
+			};
+			name = Release;
+		};
+		07FE65FA1C951A8D0073CE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PumabusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.PumabusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pumabus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07FE65FB1C951A8D0073CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PumabusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.PumabusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pumabus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FE65C11C951A8C0073CE3B /* Build configuration list for PBXProject "Pumabus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FE65F11C951A8D0073CE3B /* Debug */,
+				07FE65F21C951A8D0073CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FE65F31C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "Pumabus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FE65F41C951A8D0073CE3B /* Debug */,
+				07FE65F51C951A8D0073CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07FE65F61C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "PumabusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FE65F71C951A8D0073CE3B /* Debug */,
+				07FE65F81C951A8D0073CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07FE65F91C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "PumabusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FE65FA1C951A8D0073CE3B /* Debug */,
+				07FE65FB1C951A8D0073CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FE65BE1C951A8C0073CE3B /* Project object */;
+}
