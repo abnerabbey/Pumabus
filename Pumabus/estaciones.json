@@ -1,0 +1,850 @@
+{
+  "estaciones":[
+  {
+    "nom": "Universidad. Rutas 1, 3 y 5",
+    "lat": 19.3241828,
+    "lon": -99.1747766,
+    "rut": [
+      1,
+      3,
+      5
+    ]
+  },
+  {
+    "nom": "Universidad. Rutas 2 y 4",
+    "lat": 19.3247017,
+    "lon": -99.1752134,
+    "rut": [
+      2,
+      4
+    ]
+  },
+  {
+    "nom": "CENDI",
+    "lat": 19.3286387,
+    "lon": -99.1749521,
+    "rut": [
+      1,
+      5
+    ]
+  },
+  {
+    "nom": "Psiquiatría y Salud Mental",
+    "lat": 19.3322519,
+    "lon": -99.1784061,
+    "rut": [
+      1,
+      5
+    ]
+  },
+  {
+    "nom": "Química",
+    "lat": 19.3308839,
+    "lon": -99.1807271,
+    "rut": [
+      1,
+      7
+    ]
+  },
+  {
+    "nom": "CELE",
+    "lat": 19.3307869,
+    "lon": -99.1833451,
+    "rut": [
+      1,
+      7
+    ]
+  },
+  {
+    "nom": "Ingeniería",
+    "lat": 19.3307655,
+    "lon": -99.184539,
+    "rut": [
+      1,
+      7
+    ]
+  },
+  {
+    "nom": "Arquitectura",
+    "lat": 19.3305791,
+    "lon": -99.1868438,
+    "rut": [
+      1,
+      7
+    ]
+  },
+  {
+    "nom": "Rectoría",
+    "lat": 19.3327448,
+    "lon": -99.1893555,
+    "rut": [
+      1,
+      9
+    ]
+  },
+  {
+    "nom": "Psicología",
+    "lat": 19.3344751,
+    "lon": -99.1892213,
+    "rut": [
+      1,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "nom": "Filosofía y Letras",
+    "lat": 19.334658,
+    "lon": -99.1878276,
+    "rut": [
+      1,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "nom": "Derecho",
+    "lat": 19.3349877,
+    "lon": -99.18487650000002,
+    "rut": [
+      1,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "nom": "Economía",
+    "lat": 19.335193,
+    "lon": -99.1830278,
+    "rut": [
+      1,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "nom": "Odontología",
+    "lat": 19.3347087,
+    "lon": -99.180773,
+    "rut": [
+      1,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "nom": "Medicina",
+    "lat": 19.3329735,
+    "lon": -99.1788186,
+    "rut": [
+      1,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "nom": "Veterinaria",
+    "lat": 19.3296033,
+    "lon": -99.1760704,
+    "rut": [
+      1,
+      5
+    ]
+  },
+  {
+    "nom": "Instituto Geofísica",
+    "lat": 19.3264971,
+    "lon": -99.1751374,
+    "rut": [
+      1,
+      5
+    ]
+  },
+  {
+    "nom": "Química Conjuntos D y E",
+    "lat": 19.32312,
+    "lon": -99.1771677,
+    "rut": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "nom": "Ciencias Profesores",
+    "lat": 19.3226731,
+    "lon": -99.17911590000001,
+    "rut": [
+      2,
+      4
+    ]
+  },
+  {
+    "nom": "Ciencias Alumnos",
+    "lat": 19.3248964,
+    "lon": -99.1817251,
+    "rut": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Ciencias del Mar",
+    "lat": 19.3285126,
+    "lon": -99.1792502,
+    "rut": [
+      6,
+      12,
+      13
+    ]
+  },
+  {
+    "nom": "Invernadero",
+    "lat": 19.3290118,
+    "lon": -99.1798765,
+    "rut": [
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "nom": "Posgrado de Ingeniería",
+    "lat": 19.327005,
+    "lon": -99.1810557,
+    "rut": [
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "nom": "Anexo de Ingeniería",
+    "lat": 19.325571,
+    "lon": -99.1821754,
+    "rut": [
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "nom": "Contaduría y Administración",
+    "lat": 19.3235997,
+    "lon": -99.184816,
+    "rut": [
+      2,
+      4,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "nom": "Trabajo Social",
+    "lat": 19.3232759,
+    "lon": -99.1866207,
+    "rut": [
+      2,
+      4,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "nom": "Metrobús CU",
+    "lat": 19.3241558,
+    "lon": -99.1877047,
+    "rut": [
+      2,
+      4,
+      6,
+      8,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "nom": "Estadio de Prácticas",
+    "lat": 19.3268399,
+    "lon": -99.1880792,
+    "rut": [
+      4,
+      6,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "nom": "MUCA",
+    "lat": 19.3303775,
+    "lon": -99.1890205,
+    "rut": [
+      6,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "nom": "Estacionamiento 8",
+    "lat": 19.3300768,
+    "lon": -99.19054830000002,
+    "rut": [
+      6,
+      7,
+      8,
+      11
+    ]
+  },
+  {
+    "nom": "Estacionamiento 7",
+    "lat": 19.3291745,
+    "lon": -99.1924033,
+    "rut": [
+      6,
+      7,
+      8,
+      11
+    ]
+  },
+  {
+    "nom": "Estacionamiento 6",
+    "lat": 19.3302918,
+    "lon": -99.1933941,
+    "rut": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "nom": "Estacionamiento 4",
+    "lat": 19.3312598,
+    "lon": -99.1941571,
+    "rut": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "nom": "Estacionamiento 3",
+    "lat": 19.3326012,
+    "lon": -99.19460620000001,
+    "rut": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "nom": "Estacionamiento 2",
+    "lat": 19.3334279,
+    "lon": -99.1932196,
+    "rut": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "nom": "Estacionamiento 1",
+    "lat": 19.333518,
+    "lon": -99.1906724,
+    "rut": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "nom": "Campos de Futbol I",
+    "lat": 19.323502,
+    "lon": -99.1927283,
+    "rut": [
+      4,
+      6,
+      10
+    ]
+  },
+  {
+    "nom": "Pista de Cenlentamiento. Ruta 6",
+    "lat": 19.3264899,
+    "lon": -99.19440330000002,
+    "rut": [
+      6
+    ]
+  },
+  {
+    "nom": "Pista de Calentamiento. Rutas 6 y 11",
+    "lat": 19.3263736,
+    "lon": -99.1948648,
+    "rut": [
+      6,
+      11
+    ]
+  },
+  {
+    "nom": "PUMITAS",
+    "lat": 19.324445,
+    "lon": -99.1949215,
+    "rut": [
+      6,
+      11
+    ]
+  },
+  {
+    "nom": "Jardín Botánico",
+    "lat": 19.3213088,
+    "lon": -99.193054,
+    "rut": [
+      4,
+      6,
+      10,
+      11
+    ]
+  },
+  {
+    "nom": "Campos de Fútbol II",
+    "lat": 19.3227269,
+    "lon": -99.192352,
+    "rut": [
+      4,
+      6,
+      10,
+      11
+    ]
+  },
+  {
+    "nom": "Investigaciones Biomédicas",
+    "lat": 19.323134,
+    "lon": -99.1897422,
+    "rut": [
+      6,
+      10
+    ]
+  },
+  {
+    "nom": "Metrobus CU. Rutas 6 y 10",
+    "lat": 19.3242208,
+    "lon": -99.1894278,
+    "rut": [
+      6,
+      10
+    ]
+  },
+  {
+    "nom": "Metrobús CU. Rutas 2, 4, 6, 11 y 12",
+    "lat": 19.3237245,
+    "lon": -99.1879912,
+    "rut": [
+      2,
+      4,
+      6,
+      11,
+      12
+    ]
+  },
+  {
+    "nom": "Educación a Distancia",
+    "lat": 19.3224201,
+    "lon": -99.1868972,
+    "rut": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Cómputo Académico",
+    "lat": 19.3227658,
+    "lon": -99.1846928,
+    "rut": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Ciencias Profesores (regreso)",
+    "lat": 19.322201,
+    "lon": -99.17910990000001,
+    "rut": [
+      2,
+      4
+    ]
+  },
+  {
+    "nom": "Medicina. Rutas 5",
+    "lat": 19.3345056,
+    "lon": -99.1795922,
+    "rut": [
+      5
+    ]
+  },
+  {
+    "nom": "Odontología. Rutas 5",
+    "lat": 19.3349181,
+    "lon": -99.18083,
+    "rut": [
+      5
+    ]
+  },
+  {
+    "nom": "Economía. Rutas 5",
+    "lat": 19.3358201,
+    "lon": -99.18351340000001,
+    "rut": [
+      5
+    ]
+  },
+  {
+    "nom": "Avenida Universidad. Rutas 5",
+    "lat": 19.3361398,
+    "lon": -99.185748,
+    "rut": [
+      5
+    ]
+  },
+  {
+    "nom": "Derecho. Rutas 5",
+    "lat": 19.3354129,
+    "lon": -99.1847232,
+    "rut": [
+      5
+    ]
+  },
+  {
+    "nom": "Filosofía y Letras. Rutas 5",
+    "lat": 19.3349586,
+    "lon": -99.187447,
+    "rut": [
+      5
+    ]
+  },
+  {
+    "nom": "Psicología. Rutas 5",
+    "lat": 19.3346777,
+    "lon": -99.189181,
+    "rut": [
+      5
+    ]
+  },
+  {
+    "nom": "Relaciones Laborales",
+    "lat": 19.3341961,
+    "lon": -99.1910129,
+    "rut": [
+      11
+    ]
+  },
+  {
+    "nom": "Obras y Relaciones",
+    "lat": 19.335081,
+    "lon": -99.192927,
+    "rut": [
+      11
+    ]
+  },
+  {
+    "nom": "AAPAUNAM",
+    "lat": 19.3343618,
+    "lon": -99.1955918,
+    "rut": [
+      11
+    ]
+  },
+  {
+    "nom": "UDUAL",
+    "lat": 19.3313014,
+    "lon": -99.1954754,
+    "rut": [
+      11
+    ]
+  },
+  {
+    "nom": "Tienda UNAM I",
+    "lat": 19.3205967,
+    "lon": -99.1764734,
+    "rut": [
+      3,
+      13
+    ]
+  },
+  {
+    "nom": "Ciencias Políticas",
+    "lat": 19.3177603,
+    "lon": -99.1764841,
+    "rut": [
+      3
+    ]
+  },
+  {
+    "nom": "Investigaciones Jurídicas I",
+    "lat": 19.3172617,
+    "lon": -99.1806951,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Biblioteca Nacional",
+    "lat": 19.3154701,
+    "lon": -99.1864241,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Centro Cultural",
+    "lat": 19.3145125,
+    "lon": -99.18634210000002,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Posgrado de Economía",
+    "lat": 19.311394,
+    "lon": -99.1859395,
+    "rut": [
+      10
+    ]
+  },
+  {
+    "nom": "Revalidación de Estudios",
+    "lat": 19.3117662,
+    "lon": -99.1849437,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Personal Académico",
+    "lat": 19.3107634,
+    "lon": -99.1821484,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Archivo General",
+    "lat": 19.3098318,
+    "lon": -99.180401,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Avenida del Imán",
+    "lat": 19.3080496,
+    "lon": -99.1801115,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Investigaciones Filológicas I",
+    "lat": 19.313972,
+    "lon": -99.1799868,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Investigaciones Filosóficas II",
+    "lat": 19.3140851,
+    "lon": -99.1810286,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Coordinación de Humanidades",
+    "lat": 19.3141428,
+    "lon": -99.1814863,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "UNIVERSUM",
+    "lat": 19.3115602,
+    "lon": -99.1821593,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Teatro y Danza",
+    "lat": 19.3119926,
+    "lon": -99.1847533,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "MUAC",
+    "lat": 19.3144898,
+    "lon": -99.18595190000002,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Biblioteca/Hemeroteca",
+    "lat": 19.3157922,
+    "lon": -99.1860989,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Espacio Escultórico",
+    "lat": 19.3173016,
+    "lon": -99.1836922,
+    "rut": [
+      3,
+      10
+    ]
+  },
+  {
+    "nom": "Investigaciones Jurídicas II",
+    "lat": 19.316825000000005,
+    "lon": -99.180416,
+    "rut": [
+      3
+    ]
+  },
+  {
+    "nom": "TV UNAM",
+    "lat": 19.317569,
+    "lon": -99.1762864,
+    "rut": [
+      3
+    ]
+  },
+  {
+    "nom": "Tienda UNAM II",
+    "lat": 19.3212277,
+    "lon": -99.1762233,
+    "rut": [
+      3,
+      13
+    ]
+  },
+  {
+    "nom": "Servicios Médicos",
+    "lat": 19.3301313,
+    "lon": -99.1878982,
+    "rut": [
+      8
+    ]
+  },
+  {
+    "nom": "Alberca Olímpica",
+    "lat": 19.3303979,
+    "lon": -99.1862963,
+    "rut": [
+      8
+    ]
+  },
+  {
+    "nom": "Ingeniería",
+    "lat": 19.3305342,
+    "lon": -99.1846807,
+    "rut": [
+      8
+    ]
+  },
+  {
+    "nom": "Frontones",
+    "lat": 19.330464,
+    "lon": -99.182692,
+    "rut": [
+      8
+    ]
+  },
+  {
+    "nom": "IIMAS",
+    "lat": 19.3306382,
+    "lon": -99.180822,
+    "rut": [
+      8
+    ]
+  },
+  {
+    "nom": "Investigación Científica I",
+    "lat": 19.3263431,
+    "lon": -99.1804961,
+    "rut": [
+      6,
+      12,
+      13
+    ]
+  },
+  {
+    "nom": "Instituto de Materiales I",
+    "lat": 19.3266658,
+    "lon": -99.1784522,
+    "rut": [
+      12,
+      13
+    ]
+  },
+  {
+    "nom": "Instituto de Química",
+    "lat": 19.327051800000003,
+    "lon": -99.1776234,
+    "rut": [
+      12,
+      13
+    ]
+  },
+  {
+    "nom": "Investigación Científica II",
+    "lat": 19.3272416,
+    "lon": -99.1776462,
+    "rut": [
+      12,
+      13
+    ]
+  },
+  {
+    "nom": "Instituto de Materiales II",
+    "lat": 19.326776,
+    "lon": -99.1784026,
+    "rut": [
+      12,
+      13
+    ]
+  }
+]
+}

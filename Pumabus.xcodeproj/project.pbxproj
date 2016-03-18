@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0772E6AF1C96167000CB9BC7 /* StationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772E6AE1C96167000CB9BC7 /* StationsViewController.m */; };
+		0772E6B21C9629E500CB9BC7 /* PumabusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772E6B11C9629E500CB9BC7 /* PumabusManager.m */; };
+		0772E6C61C9659A200CB9BC7 /* estaciones.json in Resources */ = {isa = PBXBuildFile; fileRef = 0772E6C51C9659A200CB9BC7 /* estaciones.json */; };
 		07FE65CB1C951A8C0073CE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65CA1C951A8C0073CE3B /* main.m */; };
 		07FE65CE1C951A8C0073CE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65CD1C951A8C0073CE3B /* AppDelegate.m */; };
 		07FE65D11C951A8C0073CE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65D01C951A8C0073CE3B /* ViewController.m */; };
@@ -15,6 +18,10 @@
 		07FE65D91C951A8C0073CE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FE65D71C951A8C0073CE3B /* LaunchScreen.storyboard */; };
 		07FE65E41C951A8D0073CE3B /* PumabusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65E31C951A8C0073CE3B /* PumabusTests.m */; };
 		07FE65EF1C951A8D0073CE3B /* PumabusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65EE1C951A8D0073CE3B /* PumabusUITests.m */; };
+		07FE65FE1C951B4F0073CE3B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE65FD1C951B4F0073CE3B /* MapKit.framework */; };
+		07FE66001C951B580073CE3B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE65FF1C951B580073CE3B /* CoreLocation.framework */; };
+		07FE66031C95257D0073CE3B /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE66021C95257D0073CE3B /* LocationManager.m */; };
+		07FE66091C952D100073CE3B /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE66081C952D100073CE3B /* RoutesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0772E6AD1C96167000CB9BC7 /* StationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsViewController.h; sourceTree = "<group>"; };
+		0772E6AE1C96167000CB9BC7 /* StationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsViewController.m; sourceTree = "<group>"; };
+		0772E6B01C9629E500CB9BC7 /* PumabusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumabusManager.h; sourceTree = "<group>"; };
+		0772E6B11C9629E500CB9BC7 /* PumabusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PumabusManager.m; sourceTree = "<group>"; };
+		0772E6C51C9659A200CB9BC7 /* estaciones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = estaciones.json; sourceTree = "<group>"; };
 		07FE65C61C951A8C0073CE3B /* Pumabus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pumabus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FE65CA1C951A8C0073CE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07FE65CC1C951A8C0073CE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,12 @@
 		07FE65EA1C951A8D0073CE3B /* PumabusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PumabusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FE65EE1C951A8D0073CE3B /* PumabusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PumabusUITests.m; sourceTree = "<group>"; };
 		07FE65F01C951A8D0073CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FE65FD1C951B4F0073CE3B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		07FE65FF1C951B580073CE3B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07FE66011C95257D0073CE3B /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		07FE66021C95257D0073CE3B /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		07FE66071C952D100073CE3B /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesViewController.h; sourceTree = "<group>"; };
+		07FE66081C952D100073CE3B /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FE66001C951B580073CE3B /* CoreLocation.framework in Frameworks */,
+				07FE65FE1C951B4F0073CE3B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				07FE65C81C951A8C0073CE3B /* Pumabus */,
+				07FE65FC1C951B390073CE3B /* Frameworks */,
 				07FE65E21C951A8C0073CE3B /* PumabusTests */,
 				07FE65ED1C951A8D0073CE3B /* PumabusUITests */,
 				07FE65C71C951A8C0073CE3B /* Products */,
@@ -103,9 +124,18 @@
 			children = (
 				07FE65CC1C951A8C0073CE3B /* AppDelegate.h */,
 				07FE65CD1C951A8C0073CE3B /* AppDelegate.m */,
+				07FE66011C95257D0073CE3B /* LocationManager.h */,
+				07FE66021C95257D0073CE3B /* LocationManager.m */,
+				0772E6B01C9629E500CB9BC7 /* PumabusManager.h */,
+				0772E6B11C9629E500CB9BC7 /* PumabusManager.m */,
+				0772E6C51C9659A200CB9BC7 /* estaciones.json */,
+				07FE65D21C951A8C0073CE3B /* Main.storyboard */,
 				07FE65CF1C951A8C0073CE3B /* ViewController.h */,
 				07FE65D01C951A8C0073CE3B /* ViewController.m */,
-				07FE65D21C951A8C0073CE3B /* Main.storyboard */,
+				07FE66071C952D100073CE3B /* RoutesViewController.h */,
+				07FE66081C952D100073CE3B /* RoutesViewController.m */,
+				0772E6AD1C96167000CB9BC7 /* StationsViewController.h */,
+				0772E6AE1C96167000CB9BC7 /* StationsViewController.m */,
 				07FE65D51C951A8C0073CE3B /* Assets.xcassets */,
 				07FE65D71C951A8C0073CE3B /* LaunchScreen.storyboard */,
 				07FE65DA1C951A8C0073CE3B /* Info.plist */,
@@ -138,6 +168,15 @@
 				07FE65F01C951A8D0073CE3B /* Info.plist */,
 			);
 			path = PumabusUITests;
+			sourceTree = "<group>";
+		};
+		07FE65FC1C951B390073CE3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07FE65FF1C951B580073CE3B /* CoreLocation.framework */,
+				07FE65FD1C951B4F0073CE3B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +285,7 @@
 				07FE65D91C951A8C0073CE3B /* LaunchScreen.storyboard in Resources */,
 				07FE65D61C951A8C0073CE3B /* Assets.xcassets in Resources */,
 				07FE65D41C951A8C0073CE3B /* Main.storyboard in Resources */,
+				0772E6C61C9659A200CB9BC7 /* estaciones.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FE66031C95257D0073CE3B /* LocationManager.m in Sources */,
 				07FE65D11C951A8C0073CE3B /* ViewController.m in Sources */,
+				07FE66091C952D100073CE3B /* RoutesViewController.m in Sources */,
+				0772E6B21C9629E500CB9BC7 /* PumabusManager.m in Sources */,
+				0772E6AF1C96167000CB9BC7 /* StationsViewController.m in Sources */,
 				07FE65CE1C951A8C0073CE3B /* AppDelegate.m in Sources */,
 				07FE65CB1C951A8C0073CE3B /* main.m in Sources */,
 			);
@@ -496,6 +540,7 @@
 				07FE65F51C951A8D0073CE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07FE65F61C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "PumabusTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +549,7 @@
 				07FE65F81C951A8D0073CE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07FE65F91C951A8D0073CE3B /* Build configuration list for PBXNativeTarget "PumabusUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +558,7 @@
 				07FE65FB1C951A8D0073CE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
