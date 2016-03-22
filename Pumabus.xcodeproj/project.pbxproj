@@ -10,6 +10,19 @@
 		0772E6AF1C96167000CB9BC7 /* StationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772E6AE1C96167000CB9BC7 /* StationsViewController.m */; };
 		0772E6B21C9629E500CB9BC7 /* PumabusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772E6B11C9629E500CB9BC7 /* PumabusManager.m */; };
 		0772E6C61C9659A200CB9BC7 /* estaciones.json in Resources */ = {isa = PBXBuildFile; fileRef = 0772E6C51C9659A200CB9BC7 /* estaciones.json */; };
+		078C05E91CA0E26900BFE24A /* ruta_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05DC1CA0E26900BFE24A /* ruta_1.json */; };
+		078C05EA1CA0E26900BFE24A /* ruta_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05DD1CA0E26900BFE24A /* ruta_2.json */; };
+		078C05EB1CA0E26900BFE24A /* ruta_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05DE1CA0E26900BFE24A /* ruta_3.json */; };
+		078C05EC1CA0E26900BFE24A /* ruta_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05DF1CA0E26900BFE24A /* ruta_4.json */; };
+		078C05ED1CA0E26900BFE24A /* ruta_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E01CA0E26900BFE24A /* ruta_5.json */; };
+		078C05EE1CA0E26900BFE24A /* ruta_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E11CA0E26900BFE24A /* ruta_6.json */; };
+		078C05EF1CA0E26900BFE24A /* ruta_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E21CA0E26900BFE24A /* ruta_7.json */; };
+		078C05F01CA0E26900BFE24A /* ruta_8.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E31CA0E26900BFE24A /* ruta_8.json */; };
+		078C05F11CA0E26900BFE24A /* ruta_9.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E41CA0E26900BFE24A /* ruta_9.json */; };
+		078C05F21CA0E26900BFE24A /* ruta_10.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E51CA0E26900BFE24A /* ruta_10.json */; };
+		078C05F31CA0E26900BFE24A /* ruta_11.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E61CA0E26900BFE24A /* ruta_11.json */; };
+		078C05F41CA0E26900BFE24A /* ruta_12.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E71CA0E26900BFE24A /* ruta_12.json */; };
+		078C05F51CA0E26900BFE24A /* ruta_13.json in Resources */ = {isa = PBXBuildFile; fileRef = 078C05E81CA0E26900BFE24A /* ruta_13.json */; };
 		07FE65CB1C951A8C0073CE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65CA1C951A8C0073CE3B /* main.m */; };
 		07FE65CE1C951A8C0073CE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65CD1C951A8C0073CE3B /* AppDelegate.m */; };
 		07FE65D11C951A8C0073CE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE65D01C951A8C0073CE3B /* ViewController.m */; };
@@ -47,6 +60,19 @@
 		0772E6B01C9629E500CB9BC7 /* PumabusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumabusManager.h; sourceTree = "<group>"; };
 		0772E6B11C9629E500CB9BC7 /* PumabusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PumabusManager.m; sourceTree = "<group>"; };
 		0772E6C51C9659A200CB9BC7 /* estaciones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = estaciones.json; sourceTree = "<group>"; };
+		078C05DC1CA0E26900BFE24A /* ruta_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_1.json; sourceTree = "<group>"; };
+		078C05DD1CA0E26900BFE24A /* ruta_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_2.json; sourceTree = "<group>"; };
+		078C05DE1CA0E26900BFE24A /* ruta_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_3.json; sourceTree = "<group>"; };
+		078C05DF1CA0E26900BFE24A /* ruta_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_4.json; sourceTree = "<group>"; };
+		078C05E01CA0E26900BFE24A /* ruta_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_5.json; sourceTree = "<group>"; };
+		078C05E11CA0E26900BFE24A /* ruta_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_6.json; sourceTree = "<group>"; };
+		078C05E21CA0E26900BFE24A /* ruta_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_7.json; sourceTree = "<group>"; };
+		078C05E31CA0E26900BFE24A /* ruta_8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_8.json; sourceTree = "<group>"; };
+		078C05E41CA0E26900BFE24A /* ruta_9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_9.json; sourceTree = "<group>"; };
+		078C05E51CA0E26900BFE24A /* ruta_10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_10.json; sourceTree = "<group>"; };
+		078C05E61CA0E26900BFE24A /* ruta_11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_11.json; sourceTree = "<group>"; };
+		078C05E71CA0E26900BFE24A /* ruta_12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_12.json; sourceTree = "<group>"; };
+		078C05E81CA0E26900BFE24A /* ruta_13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruta_13.json; sourceTree = "<group>"; };
 		07FE65C61C951A8C0073CE3B /* Pumabus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pumabus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FE65CA1C951A8C0073CE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07FE65CC1C951A8C0073CE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +124,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078C05DA1CA0E1FD00BFE24A /* Pumabus Resources */ = {
+			isa = PBXGroup;
+			children = (
+				078C05DC1CA0E26900BFE24A /* ruta_1.json */,
+				078C05DD1CA0E26900BFE24A /* ruta_2.json */,
+				078C05DE1CA0E26900BFE24A /* ruta_3.json */,
+				078C05DF1CA0E26900BFE24A /* ruta_4.json */,
+				078C05E01CA0E26900BFE24A /* ruta_5.json */,
+				078C05E11CA0E26900BFE24A /* ruta_6.json */,
+				078C05E21CA0E26900BFE24A /* ruta_7.json */,
+				078C05E31CA0E26900BFE24A /* ruta_8.json */,
+				078C05E41CA0E26900BFE24A /* ruta_9.json */,
+				078C05E51CA0E26900BFE24A /* ruta_10.json */,
+				078C05E61CA0E26900BFE24A /* ruta_11.json */,
+				078C05E71CA0E26900BFE24A /* ruta_12.json */,
+				078C05E81CA0E26900BFE24A /* ruta_13.json */,
+				0772E6C51C9659A200CB9BC7 /* estaciones.json */,
+				0772E6B01C9629E500CB9BC7 /* PumabusManager.h */,
+				0772E6B11C9629E500CB9BC7 /* PumabusManager.m */,
+			);
+			name = "Pumabus Resources";
+			sourceTree = "<group>";
+		};
+		078C05DB1CA0E21A00BFE24A /* Code Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07FE66011C95257D0073CE3B /* LocationManager.h */,
+				07FE66021C95257D0073CE3B /* LocationManager.m */,
+			);
+			name = "Code Resources";
+			sourceTree = "<group>";
+		};
 		07FE65BD1C951A8C0073CE3B = {
 			isa = PBXGroup;
 			children = (
@@ -122,13 +180,10 @@
 		07FE65C81C951A8C0073CE3B /* Pumabus */ = {
 			isa = PBXGroup;
 			children = (
+				078C05DB1CA0E21A00BFE24A /* Code Resources */,
+				078C05DA1CA0E1FD00BFE24A /* Pumabus Resources */,
 				07FE65CC1C951A8C0073CE3B /* AppDelegate.h */,
 				07FE65CD1C951A8C0073CE3B /* AppDelegate.m */,
-				07FE66011C95257D0073CE3B /* LocationManager.h */,
-				07FE66021C95257D0073CE3B /* LocationManager.m */,
-				0772E6B01C9629E500CB9BC7 /* PumabusManager.h */,
-				0772E6B11C9629E500CB9BC7 /* PumabusManager.m */,
-				0772E6C51C9659A200CB9BC7 /* estaciones.json */,
 				07FE65D21C951A8C0073CE3B /* Main.storyboard */,
 				07FE65CF1C951A8C0073CE3B /* ViewController.h */,
 				07FE65D01C951A8C0073CE3B /* ViewController.m */,
@@ -282,10 +337,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078C05EA1CA0E26900BFE24A /* ruta_2.json in Resources */,
+				078C05F11CA0E26900BFE24A /* ruta_9.json in Resources */,
+				078C05F51CA0E26900BFE24A /* ruta_13.json in Resources */,
+				078C05F41CA0E26900BFE24A /* ruta_12.json in Resources */,
 				07FE65D91C951A8C0073CE3B /* LaunchScreen.storyboard in Resources */,
+				078C05EC1CA0E26900BFE24A /* ruta_4.json in Resources */,
+				078C05ED1CA0E26900BFE24A /* ruta_5.json in Resources */,
 				07FE65D61C951A8C0073CE3B /* Assets.xcassets in Resources */,
+				078C05F21CA0E26900BFE24A /* ruta_10.json in Resources */,
 				07FE65D41C951A8C0073CE3B /* Main.storyboard in Resources */,
+				078C05F01CA0E26900BFE24A /* ruta_8.json in Resources */,
+				078C05E91CA0E26900BFE24A /* ruta_1.json in Resources */,
 				0772E6C61C9659A200CB9BC7 /* estaciones.json in Resources */,
+				078C05EE1CA0E26900BFE24A /* ruta_6.json in Resources */,
+				078C05EB1CA0E26900BFE24A /* ruta_3.json in Resources */,
+				078C05F31CA0E26900BFE24A /* ruta_11.json in Resources */,
+				078C05EF1CA0E26900BFE24A /* ruta_7.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

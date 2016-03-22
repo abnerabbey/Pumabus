@@ -14,7 +14,9 @@
 + (NSDictionary *)dictionaryWithPumabusStations;
 + (NSDictionary *)getNearestStationFromLocation:(CLLocation *)currentLocation;
 + (NSArray *)arrayWithStationsOfRoute:(int)numberOfRoute;
++ (NSArray *)arrayWithRouteCoordinates:(int)numberOfRoute;
 
+//Helper Methods
 + (CLLocationCoordinate2D)convertValuesFromDictionaryToDegrees:(NSDictionary *)dictionary;
 
 @end

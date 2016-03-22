@@ -72,6 +72,31 @@
     return (NSArray *)stations;
 }
 
++ (NSArray *)arrayWithRouteCoordinates:(int)numberOfRoute
+{
+    NSArray *arrayPolos;
+    NSMutableArray *array;
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"ruta_%d", numberOfRoute] ofType:@"json"];
+    NSData *jsonData = [[NSData alloc] initWithContentsOfFile:filePath];
+    NSError *error;
+    NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error];
+    if(error)
+        NSLog(@"error in [PumabusManager dictionaryWithPumabusStations]: %@", error);
+    else{
+        arrayPolos = [dictionary objectForKey:@"polos"];
+        array = [[NSMutableArray alloc] init];
+        for(int i = 0; i < [arrayPolos count] - 1; i = i + 2)
+        {
+            double latitude = [[arrayPolos objectAtIndex:i] doubleValue];
+            double longitude = [[arrayPolos objectAtIndex:i + 1] doubleValue];
+            CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
+            [array addObject:location];
+        }
+        NSLog(@"array with locations of route: %d: %@", numberOfRoute, array);
+    }
+    return (NSArray *)array;
+}
+
 #pragma mark Helper Methods
 + (CLLocationCoordinate2D)convertValuesFromDictionaryToDegrees:(NSDictionary *)dictionary
 {

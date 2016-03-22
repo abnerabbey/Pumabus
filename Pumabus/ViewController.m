@@ -44,10 +44,13 @@
         [[[LocationManager sharedInstance] locationManager] startUpdatingLocation];
     
     //MapView init
-    //self.mapView.delegate = self;
+    self.mapView.delegate = self;
     
     //Method to set stations on the map
     [self setAllStationsOnMap];
+    
+    //tests
+    //[PumabusManager arrayWithRouteCoordinates:1];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -91,11 +94,20 @@
     [self presentViewController:nv animated:YES completion:nil];
 }
 
+#pragma mark Map Delegate
+- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
+{
+    MKPolylineRenderer *polylineView = [[MKPolylineRenderer alloc] initWithOverlay:overlay];
+    polylineView.strokeColor = [UIColor blueColor];
+    return polylineView;
+}
+
 #pragma ModalViews Delegates
 - (void)didSelectRoute:(int)numberOfRoute
 {
     self.numberOfRouteShown = numberOfRoute;
     [self setStationsOnMapOfRoute:numberOfRoute];
+    [self setRoutePolylineOnMap:numberOfRoute];
     if(numberOfRoute == 0)
         self.navigationItem.title = @"Pumabús";
     else
@@ -131,6 +143,25 @@
             pinStation.title = [dictionary objectForKey:@"nom"];
             [[self mapView] addAnnotation:pinStation];
         }
+    }
+}
+
+- (void)setRoutePolylineOnMap:(int)numberOfRoute
+{
+    if(numberOfRoute == 0)
+        [self.mapView removeOverlays:self.mapView.overlays];
+    else
+    {
+        [self.mapView removeOverlays:self.mapView.overlays];
+        NSArray *array = [PumabusManager arrayWithRouteCoordinates:numberOfRoute];
+        CLLocationCoordinate2D *coords = malloc(sizeof(CLLocationCoordinate2D) * [array count]);
+        for(int i = 0; i < array.count; i++)
+        {
+            CLLocation *location = [array objectAtIndex:i];
+            coords[i] = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude);
+        }
+        MKPolygon *polygon = [MKPolygon polygonWithCoordinates:coords count:array.count];
+        [self.mapView addOverlay:polygon];
     }
 }
 
