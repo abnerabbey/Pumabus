@@ -35,6 +35,7 @@
 		07FE66001C951B580073CE3B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE65FF1C951B580073CE3B /* CoreLocation.framework */; };
 		07FE66031C95257D0073CE3B /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE66021C95257D0073CE3B /* LocationManager.m */; };
 		07FE66091C952D100073CE3B /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE66081C952D100073CE3B /* RoutesViewController.m */; };
+		E25DC2321C9BA721000AA335 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DC2311C9BA721000AA335 /* testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		07FE66021C95257D0073CE3B /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		07FE66071C952D100073CE3B /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesViewController.h; sourceTree = "<group>"; };
 		07FE66081C952D100073CE3B /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesViewController.m; sourceTree = "<group>"; };
+		E25DC2301C9BA721000AA335 /* Pumabus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pumabus-Bridging-Header.h"; sourceTree = "<group>"; };
+		E25DC2311C9BA721000AA335 /* testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,7 @@
 				07FE65D71C951A8C0073CE3B /* LaunchScreen.storyboard */,
 				07FE65DA1C951A8C0073CE3B /* Info.plist */,
 				07FE65C91C951A8C0073CE3B /* Supporting Files */,
+				E25DC2301C9BA721000AA335 /* Pumabus-Bridging-Header.h */,
 			);
 			path = Pumabus;
 			sourceTree = "<group>";
@@ -384,6 +388,7 @@
 				0772E6B21C9629E500CB9BC7 /* PumabusManager.m in Sources */,
 				0772E6AF1C96167000CB9BC7 /* StationsViewController.m in Sources */,
 				07FE65CE1C951A8C0073CE3B /* AppDelegate.m in Sources */,
+				E25DC2321C9BA721000AA335 /* testing.swift in Sources */,
 				07FE65CB1C951A8C0073CE3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,10 +528,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Pumabus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abner.Pumabus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pumabus/Pumabus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -534,10 +543,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Pumabus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abner.Pumabus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pumabus/Pumabus-Bridging-Header.h";
 			};
 			name = Release;
 		};

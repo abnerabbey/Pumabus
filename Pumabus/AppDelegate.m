@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <Pumabus-Swift.h>
+
+
 
 @interface AppDelegate ()
 
@@ -16,6 +19,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    zamba *dididum = [[zamba alloc]init];
+    [dididum m];
     // Override point for customization after application launch.
     return YES;
 }
