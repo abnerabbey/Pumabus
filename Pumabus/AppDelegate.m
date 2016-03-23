@@ -18,7 +18,12 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    //Navigation Bar customization
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.973 green:0.58 blue:0.024 alpha:1.0]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
     
     zamba *dididum = [[zamba alloc]init];
     [dididum m];

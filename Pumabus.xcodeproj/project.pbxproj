@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074D03C31CA1C5CA00943680 /* Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 074D03C21CA1C5CA00943680 /* Stop@2x.png */; };
+		074D03C51CA1C83800943680 /* Bus Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 074D03C41CA1C83800943680 /* Bus Icon.png */; };
+		074D03C71CA1CDF900943680 /* StopNearest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 074D03C61CA1CDF900943680 /* StopNearest@2x.png */; };
 		0772E6AF1C96167000CB9BC7 /* StationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772E6AE1C96167000CB9BC7 /* StationsViewController.m */; };
 		0772E6B21C9629E500CB9BC7 /* PumabusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772E6B11C9629E500CB9BC7 /* PumabusManager.m */; };
 		0772E6C61C9659A200CB9BC7 /* estaciones.json in Resources */ = {isa = PBXBuildFile; fileRef = 0772E6C51C9659A200CB9BC7 /* estaciones.json */; };
@@ -56,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		074D03C21CA1C5CA00943680 /* Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop@2x.png"; sourceTree = "<group>"; };
+		074D03C41CA1C83800943680 /* Bus Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bus Icon.png"; sourceTree = "<group>"; };
+		074D03C61CA1CDF900943680 /* StopNearest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StopNearest@2x.png"; sourceTree = "<group>"; };
 		0772E6AD1C96167000CB9BC7 /* StationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsViewController.h; sourceTree = "<group>"; };
 		0772E6AE1C96167000CB9BC7 /* StationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsViewController.m; sourceTree = "<group>"; };
 		0772E6B01C9629E500CB9BC7 /* PumabusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumabusManager.h; sourceTree = "<group>"; };
@@ -127,6 +133,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074D03BB1CA1BD7C00943680 /* Visual Resources */ = {
+			isa = PBXGroup;
+			children = (
+				074D03C21CA1C5CA00943680 /* Stop@2x.png */,
+				074D03C61CA1CDF900943680 /* StopNearest@2x.png */,
+				074D03C41CA1C83800943680 /* Bus Icon.png */,
+			);
+			name = "Visual Resources";
+			sourceTree = "<group>";
+		};
 		078C05DA1CA0E1FD00BFE24A /* Pumabus Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +199,7 @@
 		07FE65C81C951A8C0073CE3B /* Pumabus */ = {
 			isa = PBXGroup;
 			children = (
+				074D03BB1CA1BD7C00943680 /* Visual Resources */,
 				078C05DB1CA0E21A00BFE24A /* Code Resources */,
 				078C05DA1CA0E1FD00BFE24A /* Pumabus Resources */,
 				07FE65CC1C951A8C0073CE3B /* AppDelegate.h */,
@@ -342,14 +359,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				078C05EA1CA0E26900BFE24A /* ruta_2.json in Resources */,
+				074D03C51CA1C83800943680 /* Bus Icon.png in Resources */,
 				078C05F11CA0E26900BFE24A /* ruta_9.json in Resources */,
 				078C05F51CA0E26900BFE24A /* ruta_13.json in Resources */,
 				078C05F41CA0E26900BFE24A /* ruta_12.json in Resources */,
+				074D03C31CA1C5CA00943680 /* Stop@2x.png in Resources */,
 				07FE65D91C951A8C0073CE3B /* LaunchScreen.storyboard in Resources */,
 				078C05EC1CA0E26900BFE24A /* ruta_4.json in Resources */,
 				078C05ED1CA0E26900BFE24A /* ruta_5.json in Resources */,
 				07FE65D61C951A8C0073CE3B /* Assets.xcassets in Resources */,
 				078C05F21CA0E26900BFE24A /* ruta_10.json in Resources */,
+				074D03C71CA1CDF900943680 /* StopNearest@2x.png in Resources */,
 				07FE65D41C951A8C0073CE3B /* Main.storyboard in Resources */,
 				078C05F01CA0E26900BFE24A /* ruta_8.json in Resources */,
 				078C05E91CA0E26900BFE24A /* ruta_1.json in Resources */,

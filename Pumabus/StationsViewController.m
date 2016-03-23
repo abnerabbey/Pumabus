@@ -68,6 +68,11 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 50.0;
+}
+
 - (void)dismissView
 {
     [self dismissViewControllerAnimated:YES completion:nil];

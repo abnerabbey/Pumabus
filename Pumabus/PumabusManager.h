@@ -12,7 +12,9 @@
 @interface PumabusManager : NSObject
 
 + (NSDictionary *)dictionaryWithPumabusStations;
++ (NSDictionary *)dictionaryWithPumabusRoute:(int)numberOfRoute;
 + (NSDictionary *)getNearestStationFromLocation:(CLLocation *)currentLocation;
+
 + (NSArray *)arrayWithStationsOfRoute:(int)numberOfRoute;
 + (NSArray *)arrayWithRouteCoordinates:(int)numberOfRoute;
 

@@ -22,6 +22,17 @@
     return dic;
 }
 
++ (NSDictionary *)dictionaryWithPumabusRoute:(int)numberOfRoute
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"ruta_%d", numberOfRoute] ofType:@"json"];
+    NSData *jsonData = [[NSData alloc] initWithContentsOfFile:filePath];
+    NSError *error;
+    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error];
+    if(error)
+        NSLog(@"error in [PumabusManager dictionaryWithPumabusStations]: %@", error);
+    return dic;
+}
+
 + (NSDictionary *)getNearestStationFromLocation:(CLLocation *)currentLocation
 {
     double distMin = 0;
@@ -92,7 +103,6 @@
             CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
             [array addObject:location];
         }
-        NSLog(@"array with locations of route: %d: %@", numberOfRoute, array);
     }
     return (NSArray *)array;
 }

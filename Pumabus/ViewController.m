@@ -35,6 +35,9 @@
     self.navigationItem.leftBarButtonItem = leftButton;
     self.navigationItem.rightBarButtonItem = rightButton;
     
+    self.labelNearestStation.layer.cornerRadius = 10.0;
+    self.labelNearestStation.layer.masksToBounds = YES;
+    
     //Core Location Inizialization
     [LocationManager sharedInstance];
     [[[LocationManager sharedInstance] locationManager] setDelegate:self];
@@ -63,6 +66,7 @@
 {
     self.currentLocation = [locations lastObject];
     self.nearestStation = [PumabusManager getNearestStationFromLocation:self.currentLocation];
+    [self setNearestStationOnMap];
     self.labelNearestStation.text = [NSString stringWithFormat:@"Estación más cercana: %@", [self.nearestStation objectForKey:@"nom"]];
 }
 
@@ -97,11 +101,29 @@
 #pragma mark Map Delegate
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
 {
-    MKPolylineRenderer *polylineView = [[MKPolylineRenderer alloc] initWithOverlay:overlay];
-    polylineView.strokeColor = [UIColor blueColor];
+    MKPolylineRenderer *polylineView = [self drawPolylineFromOverlay:overlay numberOfRoute:self.numberOfRouteShown];
     return polylineView;
 }
 
+- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation
+{
+    if([annotation isKindOfClass:[MKUserLocation class]])
+        return nil;
+    else{
+        static NSString *reuse = @"pin";
+        MKAnnotationView *customPin = [mapView dequeueReusableAnnotationViewWithIdentifier:reuse];
+        if(!customPin)
+            customPin = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:reuse];
+        MKPointAnnotation *pin = annotation;
+        if([pin.title isEqualToString:[self.nearestStation objectForKey:@"nom"]])
+            customPin.image = [UIImage imageNamed:@"StopNearest.png"];
+        else
+            customPin.image = [UIImage imageNamed:@"Stop.png"];
+        customPin.userInteractionEnabled = YES;
+        customPin.canShowCallout = YES;
+        return customPin;
+    }
+}
 #pragma ModalViews Delegates
 - (void)didSelectRoute:(int)numberOfRoute
 {
@@ -165,6 +187,22 @@
     }
 }
 
+- (void)setNearestStationOnMap
+{
+    for (id annotation in self.mapView.annotations) {
+        if([[annotation subtitle] isEqualToString:@"estación más cercana"])
+            [self.mapView removeAnnotation:annotation];
+    }
+    MKPointAnnotation *pin = [[MKPointAnnotation alloc] init];
+    CLLocationCoordinate2D coordinate;
+    coordinate.latitude = [[self.nearestStation objectForKey:@"lat"] doubleValue];
+    coordinate.longitude = [[self.nearestStation objectForKey:@"lon"] doubleValue];
+    pin.coordinate = coordinate;
+    pin.title = [self.nearestStation objectForKey:@"nom"];
+    pin.subtitle = @"Estación más cercana";
+    [self.mapView addAnnotation:pin];
+}
+
 - (void)setInitialRegionOnMap
 {
     CLLocationCoordinate2D coordinate = {19.3215091, -99.1860215};
@@ -174,6 +212,18 @@
 }
 
 #pragma mark Helper Methods
+- (MKPolylineRenderer *)drawPolylineFromOverlay:(id<MKOverlay>)overlay numberOfRoute:(int)numberOfRoute
+{
+    MKPolylineRenderer *polylineRenderer = [[MKPolylineRenderer alloc] initWithOverlay:overlay];
+    polylineRenderer.lineWidth = 4;
+    NSDictionary *dicRoute = [PumabusManager dictionaryWithPumabusRoute:numberOfRoute];
+    NSArray *colorRGB = [dicRoute objectForKey:@"col"];
+    float red = [[colorRGB objectAtIndex:0] floatValue]/255;
+    float green = [[colorRGB objectAtIndex:1] floatValue]/255;
+    float blue = [[colorRGB objectAtIndex:2] floatValue]/255;
+    polylineRenderer.strokeColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    return polylineRenderer;
+}
 
 @end
 

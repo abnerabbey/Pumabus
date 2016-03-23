@@ -15,6 +15,7 @@
 @implementation RoutesViewController
 {
     NSArray *arrayRoutes;
+    float red, green, blue;
 }
 
 - (void)viewDidLoad
@@ -45,6 +46,20 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:idCell];
     cell.textLabel.text = [arrayRoutes objectAtIndex:indexPath.row];
     cell.backgroundColor = [UIColor clearColor];
+    
+    //Setting the route color
+    UIView *colorView = [cell viewWithTag:1];
+    if(indexPath.row == 0)
+        colorView.backgroundColor = [UIColor clearColor];
+    else{
+        NSDictionary *routeDic = [PumabusManager dictionaryWithPumabusRoute:(int)indexPath.row];
+        NSArray *colors = [routeDic objectForKey:@"col"];
+        red = [[colors objectAtIndex:0] floatValue]/255;
+        green = [[colors objectAtIndex:1] floatValue]/255;
+        blue = [[colors objectAtIndex:2] floatValue]/255;
+        colorView.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    }
+    
     return cell;
 }
 
@@ -55,6 +70,12 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 65.0;
+}
+
+#pragma mark Methods unamed
 - (void)cancelView
 {
     [self dismissViewControllerAnimated:YES completion:nil];
