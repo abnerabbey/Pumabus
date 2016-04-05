@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <Pumabus-Swift.h>
 
 
 
@@ -25,8 +24,9 @@
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
     
-    zamba *dididum = [[zamba alloc]init];
-    [dididum m];
+    /*
+     zamba *dididum = [[zamba alloc]init];
+    [dididum m];*/
     // Override point for customization after application launch.
     return YES;
 }

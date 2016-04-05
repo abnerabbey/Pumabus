@@ -190,8 +190,12 @@
 - (void)setNearestStationOnMap
 {
     for (id annotation in self.mapView.annotations) {
-        if([[annotation subtitle] isEqualToString:@"estación más cercana"])
-            [self.mapView removeAnnotation:annotation];
+        MKPointAnnotation *pinPoint = (MKPointAnnotation *)annotation;
+        if([[pinPoint subtitle] isEqualToString:@"Estación más cercana"]){
+            NSLog(@"pinPoint title: %@", pinPoint.title);
+            NSLog(@"pinPoint subtitle: %@", pinPoint.subtitle);
+            [self.mapView removeAnnotation:pinPoint];
+        }
     }
     MKPointAnnotation *pin = [[MKPointAnnotation alloc] init];
     CLLocationCoordinate2D coordinate;
